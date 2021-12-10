@@ -17,6 +17,8 @@ Feature: login
     Então a tela de pin/biometria deve ser apresentada
     
     
-  Cenario: 
-    
+  Cenario: Login com falha
+    Dado que o usuário tentou login com dados incorretos
+    Quando o app exibir mensagem de erro
+    Então a tela de login deve ser exibida
     
