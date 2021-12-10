@@ -10,7 +10,7 @@ Feature: login
     Então o login deve poder ser efetuado normalmente
     
     
-  Cenario: Login já realizado
+  Cenario: Login já realizado anteriormente
     Dado que o usuário já fez login
     Quando o app for fechado
     E o app for aberto novamente
